@@ -29,3 +29,12 @@ body {
   background: #7B35F0;
   border-radius: 4px;
 }
+#home {
+  background-position: 80% center;
+}
+
+@media (min-width: 768px) {
+  #home {
+    background-position: right center;
+  }
+}
