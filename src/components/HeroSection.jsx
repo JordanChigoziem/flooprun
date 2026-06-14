@@ -32,9 +32,9 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            <span className="block text-6xl text-white drop-shadow-lg">ADVENTURE.</span>
-            <span className="block text-6xl text-floop-pink drop-shadow-lg">CHAOS.</span>
-            <span className="block text-6xl text-floop-yellow drop-shadow-lg">FLOOPS.</span>
+            <span className="block text-5x1 text-white drop-shadow-lg">ADVENTURE.</span>
+            <span className="block text-5x1 text-floop-pink drop-shadow-lg">CHAOS.</span>
+            <span className="block text-5x1 text-floop-yellow drop-shadow-lg">FLOOPS.</span>
           </motion.h1>
 
           {/* Subtext */}
