@@ -30,11 +30,13 @@ body {
   border-radius: 4px;
 }
 #home {
-  background-position: 80% center;
+  background-image: url('/assets/images/hero-bg-mobile.png');
+  background-position: center center;
 }
 
 @media (min-width: 768px) {
   #home {
+    background-image: url('/assets/images/hero-bg.png');
     background-position: right center;
   }
 }
