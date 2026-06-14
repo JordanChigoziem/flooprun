@@ -31,7 +31,9 @@ body {
 }
 #home {
   background-image: url('/assets/images/hero-bg-mobile.png');
-  background-position: center center;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
